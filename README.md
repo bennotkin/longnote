@@ -16,3 +16,4 @@ View your longnote by
 - cleanly display previous n notes in terminal
 - don't require quote marks
 - pick date format
+- once columns are off, they stay off – guarantee that each new entry starts in the first column
