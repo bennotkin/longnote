@@ -18,3 +18,4 @@ View your longnote by
 - pick date format
 - once columns are off, they stay off – guarantee that each new entry starts in the first column
 - preview methods only work while there are few notes...
+- instead of adding tags as second argument, make any word after hash a tag
