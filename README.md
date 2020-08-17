@@ -17,3 +17,4 @@ View your longnote by
 - don't require quote marks
 - pick date format
 - once columns are off, they stay off – guarantee that each new entry starts in the first column
+- preview methods only work while there are few notes...
