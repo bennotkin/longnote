@@ -3,7 +3,7 @@ Terminal function for quick note-taking with date and tags.
 
 To make a minimal note while doing whatever it is you do on your computer, 
 - open terminal with spotlight
-- type `n "your note" "a tag / keyword"` hit `enter`
+- type `n "your note" "a tag"` hit `enter`
 - `command + h` to hide terminal
 
 View your longnote by
