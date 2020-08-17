@@ -1,0 +1,18 @@
+# Creates the longnote file
+# I put my longnote in my Documents folder; change the path to put it elsewhere
+
+echo "Date, Note, Tags" > ~/Documents/longnote.csv
+
+# Function will be stored in .bash_profile in the user folder.
+# .bashprofile is a hidden file. To see in hidden files in Finder, press Command + Shift + .
+# If .bashprofile does not exist, run the following to create it
+
+touch .bash_profile
+
+# Open .bashprofile in a text editor and add the following at the bottom (or by itself if .bash_profile is empty)
+# Replace XXX with the path to the longnote file. You could, instead, use ~Documents/longnote.csv, like above, but this is less reliable when you're changing directories
+# You can find this path by right-clicking on the longnote.csv file and then holding option and selecting "Copy "longnote.csv" as Pathname"
+
+function n() {
+	now=$(date) && message=$1 && tags=$2 && echo $now ","  "${message//,/\",\"}" , $tags >> XXX/longnote.csv ;
+}
