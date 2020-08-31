@@ -14,10 +14,6 @@ touch .bash_profile
 # You can find this path by right-clicking on the longnote.csv file and then holding option and selecting "Copy "longnote.md" as Pathname"
 
 function n() {
-	now=$(date +"%d %b %Y %H:%M") && message=$1 && tags=$2 && echo -e $now ","  "${message//,/-}" , $tags >> TKTK/longnote.csv;
-}
-
-function n() {
 	now=$(date +"%m/%d/%y, %H:%M") && echo "##" $now "
 "$@ >> TKTK/longnote.md;
 }
